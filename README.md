@@ -34,6 +34,7 @@ new_obj.addition(15) # returns 15.0
 ## Authors
 
 Jonas Vengalis
+
 jovengalis@gmail.com
 
 ## Simple tests
