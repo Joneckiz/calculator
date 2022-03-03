@@ -1,2 +1,2 @@
 # calculator
-simple python code 
+simple python code (OOP) to perform main calculation actions
