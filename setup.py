@@ -11,5 +11,6 @@ setuptools.setup(
     url='https://github.com/Joneckiz/Python-calculator/tree/main',
     license='MIT',
     packages=['calculator'],
+    install_requires=['libpq-dev', 'python-dev']
     keywords=['python', 'calculator', 'OOP', 'classes'],
 )
