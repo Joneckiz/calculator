@@ -30,6 +30,21 @@ new_obj = calc.Calculator() # new object created
 
 new_obj.addition(15) # returns 15.0
 ```
+## Performance
+
+```
+calc.addition(15) # adds 15 to the memory, which was 0 once program started, returns 15
+
+calc.subtraction(5) # subtracts 5 from memory, which was 15, returns 10
+
+calc.multiplication(10) # multiplies memory by 10, returns 100
+
+calc.division(4) # divides memory by 4, returns 25
+
+calc.root(2) # square roots memory, returns 5
+
+calc.reset() # resets calculators memory to 0
+```
 
 ## Authors
 
@@ -37,21 +52,6 @@ Jonas Vengalis
 
 jovengalis@gmail.com
 
-## Simple tests
-
-```
-calc.addition(15) # adds 15 to the memory, which was 0 once program started, returns 15
-
-calc.subtraction(5) # subtracts 5 from memory, which was 15, returns 10
-
-calc.multiplication(10) # multiplies memory by 10, returns 50
-
-calc.division(2) # divides memory by 2, returns 25
-
-calc.root(2) # square roots memory, returns 5
-
-calc.reset() # resets calculators memory to 0
-```
 
 ## Version History
 
