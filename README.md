@@ -26,9 +26,9 @@ Once the package is installed the user should:
 ```
 from calculator import calculator as calc
 
-new_obj = calc.Calculator() # new object created
+calc = calc.Calculator() # new object created
 
-new_obj.addition(15) # returns 15.0
+calc.addition(15) # returns 15.0
 ```
 ## Performance
 
