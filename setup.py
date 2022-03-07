@@ -12,6 +12,6 @@ setuptools.setup(
     long_description='simple python calculator long_description',
     url='https://github.com/Joneckiz/calculator',
     license='MIT',
-    packages=['code'],
+    packages=['calculator'],
     install_requires=['requests'],
 )
